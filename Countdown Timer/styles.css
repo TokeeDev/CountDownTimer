@@ -1,0 +1,46 @@
+body{
+    background-image: url(images/graveyard.png);
+}
+.container{
+  margin: auto;
+}
+.inputContainer{
+  text-align: center;
+  top: 500px;
+}
+.inputContainer input{
+  width: 60px;
+  border-radius: 50px;
+  border: black solid 3px;
+  font-size: 20px;
+}
+.inputContainer input::placeholder{
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+#countdownTitle{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 145px;
+  margin-bottom: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countdownContainer{
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 25px;
+}
+.countdownContainer var{
+  font-size: 125px;
+}
+.buttons{
+  text-align: center;
+  margin-top: 150px;
+  
+}
+
+
+
