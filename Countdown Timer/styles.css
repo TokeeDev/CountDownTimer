@@ -7,6 +7,8 @@ body{
 .inputContainer{
   text-align: center;
   top: 500px;
+  margin-top: 50px;
+
 }
 .inputContainer input{
   width: 60px;
@@ -30,16 +32,32 @@ body{
 }
 .countdownContainer{
   text-align: center;
-  margin-top: 125px;
+  margin-top: 100px;
   margin-bottom: 25px;
+  
 }
 .countdownContainer var{
   font-size: 125px;
 }
 .buttons{
   text-align: center;
-  margin-top: 150px;
-  
+  margin-top: 100px;
+  font-size: 150px;
+}
+#start{
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+}
+#restart{
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+}
+#stop{
+  margin: 20px;
+  background-color: transparent;
+  border: none;
 }
 
 
