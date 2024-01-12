@@ -17,9 +17,12 @@ body{
   font-size: 20px;
 }
 .inputContainer input::placeholder{
-  color: black;
+  color: gray;
   text-align: center;
   font-size: 14px;
+}
+.center-input{
+  text-align: center;
 }
 #countdownTitle{
   text-align: center;
@@ -58,6 +61,36 @@ body{
   margin: 20px;
   background-color: transparent;
   border: none;
+}
+#stop:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+#restart:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+#start:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(123, 52, 175);
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 
